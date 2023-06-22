@@ -1,7 +1,7 @@
 title: μEdition
 author: Mark M. Hall
 logo: logo.png
-language: en
+language: de
 
 execute:
   execute_notebooks: force
@@ -15,7 +15,7 @@ bibtex_bibfiles:
 
 repository:
   url: https://github.com/uEdition/uEdition.github.io
-  path_to_book: en
+  path_to_book: de
   branch: main
 
 html:

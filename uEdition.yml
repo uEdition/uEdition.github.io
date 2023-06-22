@@ -3,4 +3,7 @@ languages:
   - code: en
     label: English
     path: en
+  - code: de
+    label: Deutsch
+    path: de
 output: site

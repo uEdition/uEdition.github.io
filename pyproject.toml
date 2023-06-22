@@ -32,3 +32,4 @@ Source = "https://github.com/uEdition/uEdition.github.io"
 
 [tool.hatch.envs.default.scripts]
 build = "uEdition build"
+serve = "uEdition serve"
