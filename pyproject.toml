@@ -22,7 +22,7 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
 dependencies = [
-  "uEdition>=0.2.1"
+  "uEdition>=0.3.0"
 ]
 
 [project.urls]
