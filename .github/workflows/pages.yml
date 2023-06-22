@@ -45,18 +45,18 @@ jobs:
         run: |
           sudo pip install hatch
 
-      #- name: Build the pages
-      #  run: |
-      #    hatch run build
+      - name: Build the pages
+        run: |
+          hatch run build
 
-      #- name: Setup Pages
-      #  uses: actions/configure-pages@v3
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
 
-      #- name: Upload artifact
-      #  uses: actions/upload-pages-artifact@v1
-      #  with:
-      #    path: 'content/_build/html'
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: 'site'
 
-      #- name: Deploy to GitHub Pages
-      #  id: deployment
-      #  uses: actions/deploy-pages@v1
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
