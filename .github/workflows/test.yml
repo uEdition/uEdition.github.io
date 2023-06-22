@@ -1,0 +1,30 @@
+name: Test the build
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  # Build the site
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install Base Dependencies
+        run: |
+          sudo pip install hatch
+
+      - name: Build the pages
+        run: |
+          hatch run build
