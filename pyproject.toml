@@ -4,8 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "uedition-github-io"
-version = "1.0"
-description = ''
+description = 'The μEdition Github site'
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
@@ -22,14 +21,16 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
 dependencies = [
-  "uEdition>=0.3.1"
+  "uedition>=0.7.0",
 ]
+version = "1.0.0"
 
 [project.urls]
-Documentation = "https://uedition.github.io"
-#Issues = "https://github.com/unknown/uedition-github-io//issues"
-Source = "https://github.com/uEdition/uEdition.github.io"
+Documentation = "https://github.com/uEdition/uEdition.github.io/-#readme"
+Issues = "https://github.com/uEdition/uEdition.github.io/-/issues"
+Source = "https://github.com/uEdition/uEdition.github.io/-"
 
 [tool.hatch.envs.default.scripts]
 build = "uEdition build"
 serve = "uEdition serve"
+update = "uEdition update"
