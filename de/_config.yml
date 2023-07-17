@@ -1,28 +1,13 @@
-title: μEdition
-author: Mark M. Hall
-logo: logo.png
-language: de
-
-execute:
-  execute_notebooks: force
-
-latex:
-  latex_documents:
-    targetname: book.tex
-
-bibtex_bibfiles:
-  - ../references.bib
-
-repository:
-  url: https://github.com/uEdition/uEdition.github.io
-  path_to_book: de
-  branch: main
-
+author: Mark Hall
 html:
-  use_issues_button: false
   use_repository_button: true
-
+repository:
+  branch: main
+  path: de
+  url: https://github.com/uEdition/uEdition.github.io
 sphinx:
-  recursive_update: true
   config:
     language: de
+  extra_extensions:
+  - uedition
+title: "\u03BCEdition"
