@@ -31,6 +31,6 @@ Issues = "https://github.com/uEdition/uEdition.github.io/-/issues"
 Source = "https://github.com/uEdition/uEdition.github.io/-"
 
 [tool.hatch.envs.default.scripts]
-build = "uEdition build"
-serve = "uEdition serve"
-update = "uEdition update"
+build = "uEdition build {args}"
+serve = "uEdition serve {args}"
+update = "uEdition update {args}"
