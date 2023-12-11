@@ -12,14 +12,7 @@ keywords = []
 authors = [
   { name = "Mark Hall", email = "mark.hall@work.room3b.eu" },
 ]
-classifiers = [
-  "Development Status :: 4 - Beta",
-  "Programming Language :: Python",
-  "Programming Language :: Python :: 3.10",
-  "Programming Language :: Python :: 3.11",
-  "Programming Language :: Python :: Implementation :: CPython",
-  "Programming Language :: Python :: Implementation :: PyPy",
-]
+classifiers = []
 dependencies = [
   "uedition>=0.7.0",
 ]
